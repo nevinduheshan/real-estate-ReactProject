@@ -16,8 +16,8 @@ const Header = () => {
         </Link>
         {/* button */}
         <div className="flex items-center gap-6">
-          <Link className="transition hover:text-violet-900" to="">Log In</Link>
-          <Link className="px-4 py-3 text-white transition rounded-lg bg-violet-700 hover:bg-violet-800" to="">Sign Up</Link>
+          <Link className="transition hover:text-red-900" to="">Log In</Link>
+          <Link className="px-4 py-3 text-white transition bg-red-700 rounded-lg hover:bg-red-800" to="">Sign Up</Link>
         </div>
       </div>
     </header>
