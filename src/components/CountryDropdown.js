@@ -36,6 +36,21 @@ const CountryDropdown = () => {
           <RiArrowDownLine className="dropdown-icon-secondary" />
         )}
       </Menu.Button>
+
+      <Menu.Items className='dropdown-menu'>
+        {countries.map((country, index) => {
+          return (
+            <Menu.Item
+              onClick={() => setCountry(country)}
+              className="transition cursor-pointer hover:text-red-700"
+              as="li"
+              key={index}
+            >
+              {country}
+            </Menu.Item>
+          );
+        })}
+      </Menu.Items>
     </Menu>
   );
 };
