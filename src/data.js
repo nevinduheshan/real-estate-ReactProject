@@ -433,4 +433,5 @@ export const housesData = [
       phone: '0123 456 78910',
     },
   },
+  
 ];
